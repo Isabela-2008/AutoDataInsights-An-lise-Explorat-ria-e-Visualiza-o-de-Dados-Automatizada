@@ -1,0 +1,46 @@
+Enunciado
+Objetivo:
+
+O projeto tem como objetivo realizar uma análise exploratória de dados a partir de arquivos CSV. O script é capaz de carregar dados de URLs (incluindo Google Drive) e gerar uma variedade de visualizações para facilitar a compreensão dos dados. Ele inclui funcionalidades para plotar histogramas, gráficos de barras, gráficos de linha, gráficos de dispersão, boxplots e matrizes de correlação.
+
+Funcionalidades:
+
+Carregamento de Dados:
+
+Suporta o carregamento de arquivos CSV de URLs, incluindo URLs do Google Drive.
+Análise Exploratória:
+
+Exibe as primeiras linhas e informações gerais do DataFrame.
+Fornece estatísticas descritivas.
+Gera histogramas, gráficos de barras, gráficos de linha, gráficos de dispersão, boxplots e matrizes de correlação.
+Personalização:
+
+Permite a inclusão de análises especializadas personalizadas.
+
+Copiar código
+# Análise Exploratória de Dados
+
+Este projeto fornece um script Python para realizar análises exploratórias em dados contidos em arquivos CSV. O script é projetado para lidar com URLs de arquivos CSV e gerar gráficos variados para visualização dos dados.
+
+## Funcionalidades
+
+- **Carregamento de Dados:** Suporte para URLs do Google Drive e links diretos para arquivos CSV.
+- **Análise Exploratória:** 
+  - Exibição das primeiras linhas e informações gerais do DataFrame.
+  - Estatísticas descritivas das variáveis numéricas.
+  - Gráficos: histograma, gráfico de barras, gráfico de linha, gráfico de dispersão, boxplot e matriz de correlação.
+- **Personalização:** Adicione análises especializadas conforme necessário.
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas: `pandas`, `matplotlib`, `seaborn`, `requests`
+
+## Instalação
+
+Clone este repositório e instale as dependências necessárias:
+
+```bash
+git clone https://github.com/seuusuario/analise-exploratoria.git
+cd analise-exploratoria
+pip install -r requirements.txt
